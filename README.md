@@ -33,7 +33,7 @@ AI-Powered Data Analyst is a full-stack application for exploring CSV files with
 
 ## Sample Datasets
 
-The following CSV files are suitable for testing the application. Upload them through the interface; they are not committed to the repository.
+The following CSV files are included in the [`datasets/`](datasets) folder for testing. Upload them through the interface to explore the application.
 
 | Dataset | Size | What you can explore |
 | --- | ---: | --- |
@@ -169,6 +169,7 @@ AI-Powered-Data-Analyst/
 ├── frontend/
 │   ├── src/             React UI components and API client
 │   └── package.json     Frontend dependencies and scripts
+├── datasets/             Included sample CSV files
 ├── .gitignore
 └── README.md
 ```
