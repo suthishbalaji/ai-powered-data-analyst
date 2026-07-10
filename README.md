@@ -31,6 +31,26 @@ AI-Powered Data Analyst is a full-stack application for exploring CSV files with
 | Data quality | Detect missing-value issues, duplicates, negative values, and numerical outliers. |
 | Reliable responses | Uses Gemini, then Groq, then OpenAI, then a local Pandas-based fallback. |
 
+## Sample Datasets
+
+The following CSV files are suitable for testing the application. Upload them through the interface; they are not committed to the repository.
+
+| Dataset | Size | What you can explore |
+| --- | ---: | --- |
+| `emails.csv` | 5,172 rows · 3,002 columns | Email classification data with term-frequency features. |
+| `fifa_world_cup_2026_player_performance.csv` | 54,600 rows · 75 columns | Player profiles, team details, match performance, and football statistics. |
+| `social_media_screentime_mental_health_2026.csv` | 7,000 rows · 25 columns | Screen-time habits, platform use, demographics, and mental-health indicators. |
+| `bitcoin_price_Training - Training.csv` | 1,556 rows · 7 columns | Historical Bitcoin price data: open, high, low, close, volume, and market cap. |
+| `titanic.csv` | 418 rows · 2 columns | Passenger identifiers and survival outcomes. |
+
+These files are particularly useful for testing different analysis patterns:
+
+- **Classification and high-dimensional data:** emails
+- **Rankings and performance comparisons:** FIFA player performance
+- **Behavioral trends and grouped analysis:** social media and mental health
+- **Time-series charts and trend questions:** Bitcoin prices
+- **Outcome counts and percentages:** Titanic survival
+
 ## Architecture
 
 ```mermaid
